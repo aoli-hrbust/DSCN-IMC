@@ -1,0 +1,18 @@
+{
+    "datapath": "data/dataset/USPS-MNIST.mat",
+    "eta": 0.1,
+    "views": null,
+    "method": "DSCN-IMC",
+    "batch_size": 1024,
+    "lr": 0.0001,
+    "k": 15,
+    "eval_epochs": 5,
+    "epochs": 50,
+    "device": "cpu",
+    "use_gcn": true,
+    "is_sparse": false,
+    "train_size": 0.9,
+    "lamda": 0.1,
+    "unseen_samples": false,
+    "aug_size": 10
+}
